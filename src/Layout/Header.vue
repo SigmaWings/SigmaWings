@@ -31,7 +31,7 @@ export default {
     const menuItems = ref([
       {
         label: 'Home',
-        path: '/home'
+        path: '/'
       },
       {
         label: 'categories',
