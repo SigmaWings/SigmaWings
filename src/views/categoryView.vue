@@ -1,3 +1,13 @@
 <template>
-    <h2>Categories</h2>
+    <CategoryPageComponent/>
 </template>
+
+<script>
+import CategoryPageComponent from "../PageComponents/CategoryPageComponent.vue";
+export default {
+  name: "CategoryView",
+  components: {
+    CategoryPageComponent,
+  },
+};
+</script>
